@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+     <main class="main">
+        <nav id="search-div" class="search-div">
+            <input type="text" id = "search" class="search">
+            <ul id="locations-dropdown" class="locations-dropdown">
+                <!-- <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li>
+                <li id = 'location' class="location">New York, New York Metro Area</li> -->
+            </ul>
+        </nav>
+         <section class="main-sec">
+            <p id = 'location'>New York, New York</p>
+            <hr class = 'line'>
+            <p id = 'temperature'>~&deg; 
+                <div class="supers" id="supers">
+                    <p id="Fahr" class="selected">F</p> 
+                    <p id="Cels" class="unselected">C</p>
+                </div>
+            </p>
+         </section>
+     </main>
+     <aside class="aside1">
+         <section class="now">
+             <section class="cur-condition">
+                <img src="/media/humid.svg" alt="" id="cond-icon">
+                <p id="apparent">~&deg;</p>
+             </section>
+             <section id="clock">
+                 <div id = "digits">
+                    <p id="clk-time" style="margin: 0;">00:00</p> 
+                 </div>
+                 <div class="calender-date">
+                    <p id="date">Monday 02/23</p>
+                </div>
+            </section>
+            </section>
+         <section class="timeline">
+             <div class="half-circ-wrapper">
+                <ul class="half-circle" >
+                    <li id ='info' class="info2"><p style="margin: 0;" id ="info-at" class="info-at2">120&deg;</p></li>
+                    <li id ='info' class="info3"><p style="margin: 0;" id ="info-at" class="info-at3">90&deg;</p></li>
+                    <li id ='info' class="info4"><p style="margin: 0;" id ="info-at" class="info-at4">90&deg;</p></li>
+                    <li id ='info' class="info5"><p style="margin: 0;" id ="info-at" class="info-at5">90&deg;</p></li>
+                    <li id ='info' class="info6"><p style="margin: 0;" id ="info-at" class="info-at6">90&deg;</p></li>
+                    <li id ='info' class="info7"><p style="margin: 0;" id ="info-at" class="info-at7">90&deg;</p></li>
+                    <li id ='info' class="info8"><p style="margin: 0;" id ="info-at" class="info-at8">90&deg;</p></li>
+                </ul>
+                <ul class="interval-list">
+                    <li id="interval"  class = 'hr2'><p style="margin: 0;" id ="time" class="time-of2">12AM</p></li>
+                    <li id="interval"  class = 'hr3'><p style="margin: 0;" id ="time" class="time-of3">7am</p></li>
+                    <li id="interval"  class = 'hr4'><p style="margin: 0;" id ="time" class="time-of4">7am</p></li>
+                    <li id="interval"  class = 'hr5'><p style="margin: 0;" id ="time" class="time-of5">7am</p></li>
+                    <li id="interval"  class = 'hr6'><p style="margin: 0;" id ="time" class="time-of6">7am</p></li>
+                    <li id="interval"  class = 'hr7'><p style="margin: 0;" id ="time" class="time-of7">7am</p></li>
+                    <li id="interval"  class = 'hr8'><p style="margin: 0;" id ="time" class="time-of8">12PM</p></li>
+                </ul>
+                <section>
+                    <div class="baseline">
+                        <!-- style="border-right: 0.75px solid white; -->
+                        <ul class="current">
+                            <li class="current-info" id="current-info-at">~&deg;</li>
+                            <li class="current-hour" id="current-hour-at">~</li>
+                        </ul>
+                        <!-- style="border-left: 0.75px solid white; -->
+                        <ul class="last">
+                            <li class="last-info" id="last-info-at">~&deg;</li>
+                            <li class="last-hour" id="last-hour-at">~</li>
+                        </ul>
+                    </div>
+                </section>
+             </div>
+         </section>
+     </aside> 
+     <aside class="aside2">
+        <ul class="card-list">
+            <li id= 'card1' class="card">
+                <img src=" /media/rain.svg" alt="" id="percip-icon">
+                <p id="percipProb">~&percnt;</p>
+            </li>
+            <li id= 'card2' class="card">
+                <img src="/media/humid.svg" alt="">
+                <p id="humid">~&percnt;</p>
+            </li>
+            <li id= 'card3' class="card">
+                <img src="/media/visibility.svg" alt="">                
+                <p id="visibility">~&percnt;</p>
+            </li>
+            <li id= 'card4' class="card">
+                <img src="/media/windspeed.svg" alt="">
+                <p id="windSpeed">~&percnt;</p>
+            </li>
+        </ul>
+     </aside>
+     <script src="script.js"></script>
+</body>
+</html>
